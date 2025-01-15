@@ -24,7 +24,7 @@ public class ElevatorController {
         controlCar();
     }
 
-    public void controlCar(){
+    public void controlCar() {
         Building.elevatorControlStrategy.moveElevator(this);
     }
 }
